@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/NeosoftApi.props" />
+</Project>
