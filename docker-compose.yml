@@ -1,0 +1,27 @@
+﻿services:
+  neosoftapi:
+    image: neosoftapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5191:80"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development 
+      ConnectionStrings__DefaultConnection: "Server=mariadb;Port=3306;Database=maria_db;Uid=user_maria;Pwd=my_cool_secret;"
+    depends_on:
+      - mariadb
+  mariadb:
+    image: mariadb:latest
+    container_name: my-mariadb-container
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw    
+      MYSQL_DATABASE: maria_db           
+      MYSQL_USER: user_maria                    
+      MYSQL_PASSWORD: my_cool_secret      
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+volumes:
+  mariadb_data:

@@ -288,3 +288,4 @@
 /Users/miguelastorga/Documents/Repos/NeosoftApi/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/miguelastorga/Documents/Repos/NeosoftApi/bin/Debug/net8.0/SharpGrip.FluentValidation.AutoValidation.Mvc.dll
 /Users/miguelastorga/Documents/Repos/NeosoftApi/bin/Debug/net8.0/SharpGrip.FluentValidation.AutoValidation.Shared.dll
+/Users/miguelastorga/Documents/Repos/NeosoftApi/obj/Debug/net8.0/NeosoftApi.sourcelink.json

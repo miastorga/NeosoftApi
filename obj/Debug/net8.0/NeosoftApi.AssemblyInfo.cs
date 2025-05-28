@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeosoftApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+608ec689e1e1a257872225d67e229a11268f3a5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeosoftApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeosoftApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
